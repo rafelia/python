@@ -26,6 +26,15 @@
       20  
       20
 
+#Example with iter()
+      w = 'python'
+      
+      w_iterator = iter(w)
+      
+      next(w_iterator)
+
+      #Output
+      'p'
 
 #Example
       def add_two(x: int)-> int:
@@ -35,3 +44,4 @@
 
       #Output
       3
+
